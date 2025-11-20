@@ -48,7 +48,10 @@ proto-document-classification/
 │                ├── ...
 ```
 6. Add the location of the model to config.py ```MODEL = <path to my-model>```
-7. Run command ```python src/classify.py --build
+7. Run command the command:
+```
+python src/classify.py --build
+```
 
 ## Classifying New Documents
 
