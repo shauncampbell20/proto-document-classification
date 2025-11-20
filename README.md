@@ -1,5 +1,5 @@
-# proto-document-classification
-Document classification using embedded prototypes
+# Document Classification Using Prototypes
+This project is a method to perform document classification using embedded prototypes. Example documents for each desired label are embedded using the all-MiniLM-L6-v2 sentence transformer, and a prototype for each label is created by mean-pooling the embedding vectors. New documents are compared to the prototypes, and the prototype with the highest cosine similarity is returned as the predicted label.
 
 ## Setup
 1. Clone the repo:
